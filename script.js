@@ -20,6 +20,9 @@ const weatherNode = document.querySelector("#weather");
 const btnUpdateImageNode = document.querySelector("#btnUpdateImage");
 const btnQuoteNode = document.querySelector("#btnQuote");
 
+// lively обои contentEditable не работает там
+cityNode.textContent = 'Minsk'
+
 const baseNode = [
   "https://raw.githubusercontent.com/Gerakl22/Momentum/master/assets/images/night/",
   "https://raw.githubusercontent.com/Gerakl22/Momentum/master/assets/images/morning/",
@@ -243,8 +246,6 @@ async function getQuote() {
 // Weather
 
 async function getWeather() {
-  // lively обои contentEditable не работает там
-  cityNode.textContent = 'Minsk'
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityNode.textContent}&lang=en&appid=${keyNode}&units=metric`;
   try {
     const response = await fetch(url);
