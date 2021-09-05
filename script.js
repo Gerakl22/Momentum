@@ -166,6 +166,8 @@ const getName = () => {
     localStorage.getItem("name") === ""
   ) {
     nameNode.textContent = "[Enter name]";
+    // lively обои contentEditable не работает там
+    nameNode.textContent = 'Ivan'
   } else {
     nameNode.textContent = localStorage.getItem("name");
   }
@@ -185,7 +187,9 @@ const getFocus = () => {
     localStorage.getItem("focus") === null ||
     localStorage.getItem("focus") === ""
   ) {
-    focusNode.textContent = "[Enter focus]";
+    // focusNode.textContent = "[Enter focus]";
+    // lively обои contentEditable не работает там
+    focusNode.textContent = 'Never Give Up!'
   } else {
     focusNode.textContent = localStorage.getItem("focus");
   }
@@ -239,6 +243,8 @@ async function getQuote() {
 // Weather
 
 async function getWeather() {
+  // lively обои contentEditable не работает там
+  cityNode.textContent = 'Minsk'
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityNode.textContent}&lang=en&appid=${keyNode}&units=metric`;
   try {
     const response = await fetch(url);

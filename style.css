@@ -95,6 +95,7 @@ body {
 .information__focus {
   width: 350px;
   word-break: break-word;
+  margin-top: 1rem;
 }
 
 .information__text {
@@ -131,7 +132,7 @@ body {
   align-items: center;
   padding: 1rem;
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 0;
   width: 100%;
 }
