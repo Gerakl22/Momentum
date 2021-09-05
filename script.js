@@ -20,8 +20,6 @@ const weatherNode = document.querySelector("#weather");
 const btnUpdateImageNode = document.querySelector("#btnUpdateImage");
 const btnQuoteNode = document.querySelector("#btnQuote");
 
-// lively обои contentEditable не работает там
-cityNode.textContent = 'Minsk'
 
 const baseNode = [
   "https://raw.githubusercontent.com/Gerakl22/Momentum/master/assets/images/night/",
