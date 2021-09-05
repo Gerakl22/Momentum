@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="50ef553c-1d85-4bcb-9e13-f0922b68b57f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/day/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/day/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/day/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/day/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/day/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/day/08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/day/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/day/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/day/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/day/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/day/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/day/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/day/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/day/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/day/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/day/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/evening/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/evening/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/evening/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/evening/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/morning/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/morning/09.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630842158670</updated>
-      <workItem from="1630842159992" duration="16841000" />
+      <workItem from="1630842159992" duration="19351000" />
     </task>
     <servers />
   </component>

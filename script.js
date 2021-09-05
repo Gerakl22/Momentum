@@ -237,7 +237,7 @@ async function getQuote() {
     blockquoteNode.textContent = data.quote.body;
     figcaptionNode.textContent = data.quote.author;
     cityNode.textContent = 'Minsk';
-    getWeather();
+    await getWeather();
   } catch (e) {
     throw new Error(e);
   }
