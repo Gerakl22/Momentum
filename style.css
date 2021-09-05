@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+  color: #f0f8ff;
+  max-height: 100%;
+}
+
+.header {
+  padding: 1.5rem 1rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__block {
+  display: flex;
+  align-items: center;
+}
+
+.header__btn {
+  border-radius: 5rem;
+  background-color: rgba(0, 0, 0, 0.616);
+  color: #f0f8ff;
+  outline: none;
+  padding: 1em;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.header__btn:last-of-type {
+  margin-left: 1rem;
+}
+
+.header__date {
+  margin-left: 25rem;
+}
+
+.header__time {
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0.6rem;
+  border-radius: 2em;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem 6rem;
+}
+
+.information__purpose {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.616);
+  border-radius: 2em;
+  padding: 1rem;
+}
+
+.information__welcome {
+  display: flex;
+  font-size: 1.5em;
+  margin-bottom: 3rem;
+}
+
+.information__greeting {
+  margin-right: 0.5rem;
+}
+
+.information__name{
+  width: 230px;
+  word-break: break-word;
+}
+
+.information__focus {
+  width: 350px;
+  word-break: break-word;
+}
+
+.information__text {
+  font-style: italic;
+}
+
+.weather {
+  background-color: rgba(0, 0, 0, 0.616);
+  display: flex;
+  padding: 1rem;
+  border-radius: 2em;
+  line-height: 130%;
+  font-size: 1.2rem;
+}
+
+.weather__address,
+.weather__block-description {
+  align-self: center;
+  flex: 25% 1 1;
+}
+
+.weather__block-description {
+  text-align: right;
+}
+
+.weather__wind {
+  text-align: center;
+  flex: 50% 1 1;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer__quote {
+  font: 1.2rem New York, serif;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0.5rem;
+  border-radius: 5em;
+}
+
+.footer__figcaption,
+.footer__blockquote {
+  padding: 0.5rem;
+}
+
+.footer__figcaption {
+  text-align: right;
+  font-weight: bolder;
+}
+
+.rotate--active {
+  transform: rotate(10deg);
+  transition: 3s ease-in-out;
+}
