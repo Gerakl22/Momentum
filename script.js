@@ -21,10 +21,10 @@ const btnUpdateImageNode = document.querySelector("#btnUpdateImage");
 const btnQuoteNode = document.querySelector("#btnQuote");
 
 const baseNode = [
-  "https://raw.githubusercontent.com/irinainina/ready-projects/momentum/momentum/assets/images/night/",
-  "https://raw.githubusercontent.com/irinainina/ready-projects/momentum/momentum/assets/images/morning/",
-  "https://raw.githubusercontent.com/irinainina/ready-projects/momentum/momentum/assets/images/day/",
-  "https://raw.githubusercontent.com/irinainina/ready-projects/momentum/momentum/assets/images/evening/",
+  "https://raw.githubusercontent.com/Gerakl22/Momentum/master/assets/images/night/",
+  "https://raw.githubusercontent.com/Gerakl22/Momentum/master/assets/images/morning/",
+  "https://raw.githubusercontent.com/Gerakl22/Momentum/master/assets/images/day/",
+  "https://raw.githubusercontent.com/Gerakl22/Momentum/master/assets/images/evening/",
 ];
 const imagesNode = [
   "01.jpg",
