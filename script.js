@@ -236,6 +236,8 @@ async function getQuote() {
 
     blockquoteNode.textContent = data.quote.body;
     figcaptionNode.textContent = data.quote.author;
+    cityNode.textContent = 'Minsk';
+    getWeather();
   } catch (e) {
     throw new Error(e);
   }
@@ -264,7 +266,7 @@ async function getWeather() {
       return img;
     };
 
-    cityNode.textContent = 'Minsk';
+    cityNode.textContent = data.name;
     wrongCityNode.textContent = "";
     countryNode.textContent = data.sys.country;
     weatherIconNode.style.display = "inline-block";
