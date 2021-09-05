@@ -12,62 +12,65 @@
 </head>
 
 <body>
+    <div class="wrapper">
 
-    <header class="header">
-      <div class="header__block">
+      <header class="header">
+        <div class="header__block">
           <button id="btnUpdateImage" class="header__btn">Update Background</button>
           <button id="btnQuote" class="header__btn">Update Quote</button>
           <h2 id="date" class="header__date"></h2>
-      </div>
-      <div class="header__block">
-        <time id="time" class="header__time"></time>
-      </div>
-    </header>
-
-    <section class="information">
-
-      <div class="information__purpose">
-        <div class="information__welcome">
-          <p id="greeting" class="information__greeting"> </p>
-          <p id="name" contenteditable="true" class="information__name"></p>
         </div>
-        <h2 class="information__text">What Is Your Focus For Today?</h2>
-        <h2 id="focus" contenteditable="true" class="information__focus"></h2>
-      </div>
-
-      <div id="weather" class="weather">
-        <div class="weather__address">
-          <span id="city" class="weather__city" contenteditable="true"></span> <span id="country" class="weather__country"></span>
+        <div class="header__block">
+          <time id="time" class="header__time"></time>
         </div>
-        <div id="wrongCity" class="weather__wrong-city"></div>
-        <div class="weather__wind">
-          <div class="weather__heat">
-            <p><span id="temperatureCurrent" class="weather__temperature"></span></p>
-            <p id="humidity" class="weather__humidity"></p>
+      </header>
+
+      <section class="information">
+
+        <div class="information__purpose">
+          <div class="information__welcome">
+            <p id="greeting" class="information__greeting"> </p>
+            <p id="name" contenteditable="true" class="information__name"></p>
           </div>
-          <div class="weather__image">
-            <img id="weatherIcon" class="weather__icon">
+          <h2 class="information__text">What Is Your Focus For Today?</h2>
+          <h2 id="focus" contenteditable="true" class="information__focus"></h2>
+        </div>
+
+        <div id="weather" class="weather">
+          <div class="weather__address">
+            <span id="city" class="weather__city" contenteditable="true"></span> <span id="country" class="weather__country"></span>
           </div>
-          <div class="weather__wind-facts">
-            <i id="iconWindDeg" class="far" class="weather__wind-icon"></i> <span id="windDeg" class="weather__wind-deg"></span>
-            <p class="weather__wind--block-speed">
-              <span id="windSpeed" class="weather__wind-speed"></span>
-            </p>
+          <div id="wrongCity" class="weather__wrong-city"></div>
+          <div class="weather__wind">
+            <div class="weather__heat">
+              <p><span id="temperatureCurrent" class="weather__temperature"></span></p>
+              <p id="humidity" class="weather__humidity"></p>
+            </div>
+            <div class="weather__image">
+              <img id="weatherIcon" class="weather__icon">
+            </div>
+            <div class="weather__wind-facts">
+              <i id="iconWindDeg" class="far" class="weather__wind-icon"></i> <span id="windDeg" class="weather__wind-deg"></span>
+              <p class="weather__wind--block-speed">
+                <span id="windSpeed" class="weather__wind-speed"></span>
+              </p>
+            </div>
+          </div>
+          <div class="weather__block-description">
+            <span id="weatherDescription" class="weather__description"></span>
           </div>
         </div>
-        <div class="weather__block-description">
-          <span id="weatherDescription" class="weather__description"></span>
-        </div>
-      </div>
 
-    </section>
+      </section>
 
-    <footer class="footer">
-      <figure class="footer__quote">
-        <blockquote class="footer__blockquote"></blockquote>
-        <figcaption class="footer__figcaption"></figcaption>
-      </figure>
-    </footer>
+      <footer class="footer">
+        <figure class="footer__quote">
+          <blockquote class="footer__blockquote"></blockquote>
+          <figcaption class="footer__figcaption"></figcaption>
+        </figure>
+      </footer>
+
+    </div>
 
 </body>
 

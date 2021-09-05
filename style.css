@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Quicksand", sans-serif;
   background-size: cover;
@@ -12,7 +16,11 @@ body {
   background-attachment: fixed;
   transition: background-image 1s ease-in-out;
   color: #f0f8ff;
-  max-height: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
 }
 
 .header {
@@ -55,6 +63,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 1rem 6rem;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  width: 100%
 }
 
 .information__purpose {
@@ -118,6 +130,10 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .footer__quote {
