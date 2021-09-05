@@ -264,7 +264,7 @@ async function getWeather() {
       return img;
     };
 
-    cityNode.textContent = data.name;
+    cityNode.textContent = 'Minsk';
     wrongCityNode.textContent = "";
     countryNode.textContent = data.sys.country;
     weatherIconNode.style.display = "inline-block";
